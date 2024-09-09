@@ -1,0 +1,19 @@
+{
+  "name": "mp-e2e-playwright-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
